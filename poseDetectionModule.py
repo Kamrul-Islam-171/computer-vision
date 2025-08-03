@@ -66,7 +66,7 @@ def main() :
     detector = poseDetection()
     while True : 
         _, img = cap.read()
-        detector.findPose(img)
+        img = detector.findPose(img)
         landmarks = detector.findPositions(img, draw=False)
 
 
