@@ -8,7 +8,7 @@ pose = mpPose.Pose()
 
 mpDraw = mp.solutions.drawing_utils
 
-cap = cv2.VideoCapture('./videos/jjk.mp4')
+cap = cv2.VideoCapture('./videos/exercise.mp4')
 preTime = 0
 curTime = 0
 
